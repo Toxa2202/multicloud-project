@@ -19,13 +19,13 @@ variable "instance_count" {
 variable "aws_subnet" {
   description = "AWS Subnet"
   type        = string
-  default     = "	subnet-0a6b4ced1ec2f0e71"
+  default     = "subnet-0e893627a8f95e217"
 }
 
 variable "resource_group_name" {
   description = "Resource Group Name"
   type        = string
-  default     = "ODL-azure-805297"
+  default     = "ODL-azure-805339"
 }
 
 variable "resource_group_location" {
